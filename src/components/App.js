@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react'
 import { todoReducer } from '../reducers/todo';
-import '../styles.css';
+import '../styles/App.css';
 import { AddTodo } from './AddTodo';
 import { Todo } from './Todo';
 const App = () => {
